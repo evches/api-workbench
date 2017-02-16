@@ -1,5 +1,5 @@
 {
-  "name": "@evches/api-workbench",
+  "name": "api-workbench",
   "version": "0.8.43",
   "description": "API Workbench",
   "private": true,
