@@ -3,7 +3,7 @@
 import UI=require("atom-ui-lib")
 import Disposable = UI.IDisposable
 import CompositeDisposable = UI.CompositeDisposable
-import hl=require("raml-1-parser");
+import hl=require("@evches/raml-1-parser");
 var universes=hl.universes
 import stubs=hl.stubs
 import _=require("underscore")

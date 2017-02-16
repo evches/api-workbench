@@ -2,7 +2,7 @@
 
 import fs = require ('fs')
 import path = require ('path')
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import stubs=rp.stubs;
 import lowLevel=rp.ll;
 import hl=rp.hl;
@@ -29,7 +29,7 @@ import yaml = require("yaml-ast-parser")
 import linterUI = require("../core/linter-ui")
 
 import editorTools = require("../editor-tools/editor-tools")
-import {universeHelpers} from "raml-1-parser/dist/index";
+import {universeHelpers} from "@evches/raml-1-parser/dist/index";
 
 interface QuickFix{
     title:string

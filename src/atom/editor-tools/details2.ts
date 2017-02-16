@@ -3,7 +3,7 @@
 import fs = require ('fs')
 import path = require ('path')
 
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import hl=rp.hl;
 import def=rp.ds;
 import search=rp.search;
@@ -17,7 +17,7 @@ import shemagen=require("../../util/schemaGenerator")
 import SpacePenViews = require('atom-space-pen-views')
 import move=require("../dialogs/moveElementsDialog")
 import tooltip=require("../core/tooltip-manager")
-import contextActions = require("raml-actions")
+import contextActions = require("@evches/raml-actions")
 import commonContextActions = require("../context-menu/commonContextActions")
 import suggestions=require("./suggestions-panel")
 import assistUtils = require("../dialogs/assist-utils");

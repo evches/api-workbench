@@ -6,20 +6,20 @@ import path=require('path')
 import Disposable = UI.IDisposable
 import CompositeDisposable = UI.CompositeDisposable
 
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import lowLevel=rp.ll;
 import hl=rp.hl;
 var universes=rp.universes
 
 import fs=require("fs")
 import details2=require("./details2")
-import contextActions = require("raml-actions")
+import contextActions = require("@evches/raml-actions")
 import commonContextActions = require("../context-menu/commonContextActions")
 import editorTools=require("./editor-tools")
 import _=require("underscore")
 import pair = require("../../util/pair");
 import universeHelpers = rp.universeHelpers;
-import ramlOutline = require("raml-outline")
+import ramlOutline = require("@evches/raml-outline")
 import outlineCommon = require("./outline-common")
 
 export class RamlOutline extends SC.Scrollable {

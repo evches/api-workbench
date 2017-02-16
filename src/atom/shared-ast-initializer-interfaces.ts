@@ -1,4 +1,4 @@
-import rp=require("raml-1-parser");
+import rp=require("@evches/raml-1-parser");
 import hl=rp.hl;
 import ll=rp.ll;
 

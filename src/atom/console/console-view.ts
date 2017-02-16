@@ -9,7 +9,7 @@ import extend = require('xtend')
 import path = require('path')
 import popsicle = require('popsicle')
 import AtomUtil = require('../util/atom')
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 
 import RamlWrapper1 =rp.api10;
 import RamlWrapper08 =rp.api08;

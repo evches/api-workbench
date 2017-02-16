@@ -3,10 +3,10 @@
 import _ = require("underscore")
 import contextMenu = require("./contextMenu")
 import commandManager = require("../quick-commands/command-manager")
-import contextActions = require("raml-actions")
+import contextActions = require("@evches/raml-actions")
 import path = require ('path')
 import provider=require("../suggestion/provider")
-import rp=require("raml-1-parser");
+import rp=require("@evches/raml-1-parser");
 import search=rp.search;
 import hl=rp.hl;
 import ll=rp.ll;

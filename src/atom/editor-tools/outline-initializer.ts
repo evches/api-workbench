@@ -1,6 +1,6 @@
-import ramlOutline = require("raml-outline")
+import ramlOutline = require("@evches/raml-outline")
 import sharedAstInitializerInterfaces = require("../shared-ast-initializer-interfaces")
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import lowLevel=rp.ll;
 import hl=rp.hl;
 var universes=rp.universes

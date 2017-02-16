@@ -1,6 +1,6 @@
 /// <reference path="../../../typings/main.d.ts" />
 import path = require('path');
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import lowLevel=rp.ll;
 import hl=rp.hl;
 

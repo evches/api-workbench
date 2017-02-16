@@ -6,7 +6,7 @@ import UI = require("atom-ui-lib");
 import SC = require("../util/ScrollViewUI");
 import editorTools = require("../editor-tools/editor-tools");
 import childProcess = require('child_process');
-import ramlParser = require("raml-1-parser");
+import ramlParser = require("@evches/raml-1-parser");
 import atom = require('../core/atomWrapper');
 import fileDialogUtils = UI.fdUtils;
 

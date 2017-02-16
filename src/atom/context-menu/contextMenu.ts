@@ -1,6 +1,6 @@
 /// <reference path="../../../typings/main.d.ts" />
 
-import actions = require("raml-actions")
+import actions = require("@evches/raml-actions")
 
 import _ = require("underscore")
 import commandManager = require("../quick-commands/command-manager")

@@ -2,8 +2,8 @@
 
 import fs = require ('fs')
 import path = require ('path')
-import contextActions = require("raml-actions")
-import parser2 = require("raml-1-parser")
+import contextActions = require("@evches/raml-actions")
+import parser2 = require("@evches/raml-1-parser")
 import rp = contextActions.parser
 import lowLevel=rp.ll;
 import hl=rp.hl;

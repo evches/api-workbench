@@ -6,7 +6,7 @@
 import fs = require ('fs')
 import path = require ('path')
 import editorTools=require("../editor-tools/editor-tools")
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import project=rp.project;
 
 export function ast(editor:AtomCore.IEditor):rp.IHighLevelNode{

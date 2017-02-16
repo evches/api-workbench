@@ -2,7 +2,7 @@
 
 import fs = require ('fs')
 import path = require ('path')
-import hl=require("raml-1-parser")
+import hl=require("@evches/raml-1-parser")
 import _=require("underscore")
 import UI=require("atom-ui-lib")
 import editorTools=require("../editor-tools/editor-tools")

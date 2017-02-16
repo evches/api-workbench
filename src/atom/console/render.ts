@@ -8,7 +8,7 @@ import classnames = require('classnames')
 import arrify = require('arrify')
 import PureComponent = require('react-pure-render/component')
 import pretty = require('pretty-data')
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import wrapperHelper=rp.wrapperHelper;
 import lowLevelAst=rp.ll;
 import highLevelAst=rp.hl;
@@ -21,7 +21,7 @@ import atomUtil = require('../util/atom')
 var services = rp.ds;
 
 import ConsoleView = require('./console-view')
-import {BasicNode} from "raml-1-parser/dist/raml1/wrapped-ast/parserCoreApi";
+import {BasicNode} from "@evches/raml-1-parser/dist/raml1/wrapped-ast/parserCoreApi";
 
 //TODO consider moving this set of types into a parser, might be useful for other parser users.
 //Another (better) option is to extract superinterfaces from both API hierarchies instead

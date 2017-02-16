@@ -1,10 +1,10 @@
 import editorTools=require("../editor-tools/editor-tools")
-import contextActions = require("raml-actions")
+import contextActions = require("@evches/raml-actions")
 import commonContextActions = require("../context-menu/commonContextActions")
 import qc = require('./quick-commands');
 import dialogs=require("../dialogs/dialogs")
 import path=require('path')
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 
 import hl=rp.hl;
 import universe = rp.universes;

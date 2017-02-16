@@ -1,6 +1,6 @@
 import fs = require ('fs')
 import path = require ('path')
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import highlevel=rp.hl;
 import def=rp.ds;
 import search=rp.search;
@@ -8,7 +8,7 @@ import lowLevel=rp.ll;
 
 import _ = require('underscore');
 
-import suggestions = require('raml-suggestions');
+import suggestions = require('@evches/raml-suggestions');
 import sharedAstInitializerInterfaces = require('../shared-ast-initializer-interfaces');
 
 export var selector= '.source.raml'

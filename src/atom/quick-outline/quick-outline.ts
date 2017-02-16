@@ -8,7 +8,7 @@ import tooltipManager=require("../core/tooltip-manager")
 import UI=require ("atom-ui-lib")
 import outline=require("../editor-tools/outline-view")
 import editorTools=require("../editor-tools/editor-tools")
-import hl=require("raml-1-parser")
+import hl=require("@evches/raml-1-parser")
 
 class QuickOutlineDialog{
 

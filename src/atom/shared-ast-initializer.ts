@@ -8,7 +8,7 @@ import outlineInitializer = require("./editor-tools/outline-initializer")
 import path = require ('path')
 import unitUtils = require("./util/unit")
 
-import parser=require("raml-1-parser");
+import parser=require("@evches/raml-1-parser");
 import hl=parser.hl;
 import ll=parser.ll;
 

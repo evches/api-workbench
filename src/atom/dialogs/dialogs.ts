@@ -7,7 +7,7 @@ import khttp=require ("know-your-http-well");
  * Created by kor on 13/05/15.
  */
 
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 
 import path=require('path')
 import Disposable = UI.IDisposable

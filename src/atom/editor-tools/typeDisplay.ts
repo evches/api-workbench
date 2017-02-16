@@ -4,7 +4,7 @@ import fs = require ('fs')
 import path = require ('path')
 import _=require("underscore")
 import UI=require("atom-ui-lib")
-import hl=require("raml-1-parser")
+import hl=require("@evches/raml-1-parser")
 import def=hl.ds;
 
 function findBuiltInValueType(type: def.IType) {

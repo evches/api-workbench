@@ -1,7 +1,7 @@
 /// <reference path="../../../typings/main.d.ts" />
 import qcui = require('./quick-commands-ui');
 import atom = require('../core/atomWrapper');
-import contextActions = require("raml-actions")
+import contextActions = require("@evches/raml-actions")
 import cc = require('./code-commands');
 import et = require('../editor-tools/editor-tools');
 

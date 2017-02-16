@@ -1,6 +1,6 @@
 /// <reference path="../../../typings/main.d.ts" />
 
-import hl=require("raml-1-parser");
+import hl=require("@evches/raml-1-parser");
 import ds=hl.ds;
 var universe=ds.universesInfo
 
